@@ -5,7 +5,7 @@
  * @main AllToSrc\AllToSrc
  * @author NeosPE
  * @version 0.1
- * @api 3.9.3
+ * @api 5.0.0
  * @description 어쩌라구 ㅡㅡ;
  */
  
@@ -19,7 +19,7 @@ use pocketmine\Server;
 class AllToSrc extends PluginBase
 {
 
-    public function onEnable()
+    public function onEnable() : void
     {
 
 		$server = Server::getInstance();
